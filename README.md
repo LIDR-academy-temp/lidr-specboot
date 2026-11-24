@@ -240,7 +240,7 @@ Skills live in `ai-specs/skills/` and are mirrored into `.claude/skills/` and `.
 - **`writing-skills`** — Author and verify new skills (or refactor existing ones) following TDD-style validation before deployment. Use when adding a skill to `ai-specs/skills/` or editing an existing `SKILL.md`.
 - **`code-auditing`** — Run a systematic 6-phase code quality audit covering security, performance, type safety, dead code, and library best practices, ending with a prioritized action plan. Use for pre-release reviews, technical-debt sweeps, and dependency audits.
 
-Other active skills in this repository: `adversarial-review`, `commit`, `explain`, `factory`, `meta-prompt`, `mutation-testing`, `openspec-sync-specs`, `playwright-qa-scenarios`, `playwright-skill`, `quick-change`, `show-spec-working`, `sync-agent-symlinks`, `update-docs`. See each `ai-specs/skills/<name>/SKILL.md` for the full instructions.
+Other active skills in this repository: `adversarial-review`, `commit`, `explain`, `meta-prompt`, `mutation-testing`, `openspec-sync-specs`, `playwright-qa-scenarios`, `playwright-skill`, `quick-change`, `show-spec-working`, `sync-agent-symlinks`, `update-docs`. See each `ai-specs/skills/<name>/SKILL.md` for the full instructions.
 
 ## 📖 Core Development Rules
 
